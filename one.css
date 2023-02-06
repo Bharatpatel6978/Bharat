@@ -1,0 +1,86 @@
+body 
+{
+    font-family:courier;
+    border: 1px solid yellow;
+}
+.th1
+{
+    border: 5px solid blue;
+}
+.tab
+{
+    background-color: rgba(12, 2, 32, 0.884);
+}
+.one
+{
+    width: 250px;
+    height: 45px;
+    text-align: left;
+    color: rgba(0, 0, 255, 0.473);
+}
+.cap1
+{
+    
+    background-color: rgba(12, 2, 32, 0.884);
+    color: blue;
+}
+.cap2
+{
+    background-color: rgba(12, 2, 32, 0.884);
+    color: rgba(255, 0, 0, 0.795);
+}
+.gth
+{
+    color:brown;
+    height: 35px;
+    background-color:rgba(119, 119, 119, 0.445);
+    text-align: left;
+}
+.gtd
+{
+    color: rgb(107, 107, 107);
+    background-color:rgba(119, 119, 119, 0.445);
+    padding-left: 13px;
+}
+.h1
+{
+    color: blue;
+    font-size: 60px;
+}
+h2
+{
+    color: red;
+    font-size: 50px;
+}
+#li1
+{
+    font-size: 40px;
+}
+#li2
+{
+    color: blueviolet;
+    font-size: 40px;
+}
+#li3
+{
+    color: brown;
+    font-size: 40px;
+}
+.li1
+{
+    font-size: 25px;
+    color: black;
+    font-style: oblique;
+}
+#u1
+{
+    background-color: brown;
+}
+#u2
+{
+    background-color: blue;
+}
+#u3
+{
+    background-color: aqua;
+}

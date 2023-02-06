@@ -1,0 +1,48 @@
+body
+{
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fo
+{
+    background-color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 500px;
+}
+.name
+{
+    margin-left: 40px;
+    height: 45px;
+    width: 1430px;
+}
+.lab1
+{
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 300px;
+}
+.lab2
+{
+    font-size: 35px;
+    margin-left: 40px;
+}
+.lab3
+{
+    margin-left: 40px;
+    font-size: 35px;
+    block-size: 50px;
+    width: 1440px;
+}
+.radio
+{
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+}
+.label
+{
+    font-size: 30px;
+    font-style: oblique;
+}
