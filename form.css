@@ -1,21 +1,41 @@
-body
+html
 {
+    height: 100%;
+}
+.img
+{
+    position: absolute;
     background-image: url("img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 300%;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    filter: blur(8px);
+    z-index: -1;
 }
-#fo
+.fo
 {
     background-color: white;
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-top: 500px;
-}
+    margin-left: 700px;
+    margin-right: 660px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}    
 .name
 {
     margin-left: 40px;
     height: 45px;
-    width: 1430px;
+    width: 1230px;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 25px;
 }
 .lab1
 {
@@ -33,16 +53,53 @@ body
     margin-left: 40px;
     font-size: 35px;
     block-size: 50px;
-    width: 1440px;
+    width: 1240px;
+    margin-top: 25px;
 }
 .radio
 {
-    margin-left: 50px;
+    margin-left: 55px;
     width: 30px;
     height: 30px;
+    margin-top: 25px;
 }
 .label
 {
     font-size: 30px;
     font-style: oblique;
+}
+.ch
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+.chl
+{
+    font-size: 30px;
+    font-style: oblique;
+}
+#sub
+{
+    margin-left: 490px;
+    height: 55px;
+    width: 280px;
+    background-image: url("img2.jpg");
+    color: rgb(163, 154, 154);
+    text-align: center;
+}
+#comm
+{
+    margin-left: 40px;
+    height: 95px;
+    width: 1230px;
+    margin-top: 25px;
+}
+h1
+{
+    font-size: 90px;
+    margin-left: 730px;
+    color: blue;
+    font-family: cursive;
 }
